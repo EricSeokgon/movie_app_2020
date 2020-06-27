@@ -31,9 +31,7 @@ const foodILike = [
   },
 ];
 
-function renderFood(dish) {
-  return <Food name={dish.name} picture={dish.image} />;
-}
+const renderFood = dish => <Food name={dish.name} picture={dish.image} />;
 
 function App() {
   return (
